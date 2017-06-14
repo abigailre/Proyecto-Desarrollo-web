@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+
+ h1{
+    text-align: center; /*ALINEACION DE TEXTO*/
+    color: #0DB048;
+    font-family: 'Times New Roman'; /*TIPO DE LETRA*/
+    font-size: 100px; /*TAMAÑO DE LA LETRA*/
+    font-weight: normal;/*GROSOR DE LA LETRA */
+}
+ h2{
+    text-align: center; /*ALINEACION DE TEXTO*/
+    color: #0DB048;
+    font-family: 'Times New Roman'; /*TIPO DE LETRA*/
+    font-size: 40px; /*TAMAÑO DE LA LETRA*/
+    font-weight: normal;/*GROSOR DE LA LETRA */
+ }
+
+input[type="text"],input [type="correo"]
+input [type ="text"],input[type="password"],
+
+
+
+select, textarea{
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    height: 30px;
+    padding-left: 0px;
+    margin-top: 10px;
+    border-radius: 35px;
+    border:1px solid rgba(0,0,0,.5);
+    outline: none;
+    transition: .2% all;
+
+}
+input{
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border:1px solid rgba(0,0,0,.5);
+    outline: none;
+    transition: .2% all;
+}
+table{
+    text-align: auto; /*ALINEACION DE TEXTO*/
+    color: #0DB048;
+    font-family: 'Times New Roman'; /*TIPO DE LETRA*/
+    font-size: 20px; /*TAMAÑO DE LA LETRA*/
+    width:100%;"
+    font-weight: normal;/*GROSOR DE LA LETRA */
+    outline: none;
+}
